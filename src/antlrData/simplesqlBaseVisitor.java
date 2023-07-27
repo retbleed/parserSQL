@@ -1,4 +1,5 @@
-// Generated from D:/Projects/parserSQL/src\simplesql.g4 by ANTLR 4.12.0
+// Generated from D:/Projects/parserSQL/src/antlrData\simplesql.g4 by ANTLR 4.12.0
+package antlrData;
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
 
 /**

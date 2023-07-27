@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="IntakeView">
+  <grid id="27dc6" binding="mainPane" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="20" vgap="20">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="889" height="570"/>
+    </constraints>
+    <properties>
+      <background color="-14538452"/>
+      <foreground color="-14538452"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <hspacer id="92d73">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="2" height="2"/>
+            <preferred-size width="2" height="2"/>
+            <maximum-size width="2" height="2"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <grid id="d0bb2" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14538452"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <vspacer id="132d3">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="2" height="2"/>
+                <preferred-size width="2" height="2"/>
+                <maximum-size width="2" height="2"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <grid id="a3e60" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15460324"/>
+            </properties>
+            <border type="empty"/>
+            <children>
+              <component id="9667f" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Open Sans" size="36" style="1"/>
+                  <foreground color="-10"/>
+                  <text value="SQL Parser"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="9c9f7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15460324"/>
+              <enabled value="false"/>
+            </properties>
+            <border type="empty"/>
+            <children>
+              <component id="2d1d8" class="javax.swing.JTextArea" binding="a0TextArea" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-15460324"/>
+                  <editable value="false"/>
+                  <enabled value="true"/>
+                  <font name="Open Sans" size="12" style="3"/>
+                  <foreground color="-2499101"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <vspacer id="d074f">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="2" height="2"/>
+                <preferred-size width="2" height="2"/>
+                <maximum-size width="2" height="2"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <grid id="e844" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-15460324"/>
+            </properties>
+            <border type="empty"/>
+            <children>
+              <hspacer id="79e4f">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="f75bf" class="javax.swing.JButton" binding="button1" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="false"/>
+                  <defaultCapable value="false"/>
+                  <focusable value="true"/>
+                  <font name="Open Sans" size="16" style="1"/>
+                  <foreground color="-10"/>
+                  <hideActionText value="true"/>
+                  <horizontalTextPosition value="0"/>
+                  <label value="Compile"/>
+                  <requestFocusEnabled value="true"/>
+                  <text value="Compile"/>
+                  <verifyInputWhenFocusTarget value="true"/>
+                </properties>
+              </component>
+              <component id="fbf30" class="javax.swing.JButton" binding="cleanButton" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="false"/>
+                  <defaultCapable value="false"/>
+                  <focusable value="true"/>
+                  <font name="Open Sans" size="16" style="1"/>
+                  <foreground color="-10"/>
+                  <hideActionText value="true"/>
+                  <horizontalTextPosition value="0"/>
+                  <label value="Clean"/>
+                  <requestFocusEnabled value="true"/>
+                  <text value="Clean"/>
+                  <verifyInputWhenFocusTarget value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="87aeb" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15460324"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="885fa" class="javax.swing.JTextPane" binding="textPane1" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-2499101"/>
+              <editable value="true"/>
+              <font name="Open Sans" size="12" style="1"/>
+              <foreground color="-15460324"/>
+              <margin top="25" left="0" bottom="25" right="0"/>
+              <selectionColor color="-5140415"/>
+            </properties>
+          </component>
+          <vspacer id="6bbed">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="4047e">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
